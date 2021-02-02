@@ -27,6 +27,15 @@
     <Compile Include="module2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="module3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module5.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonExercise.py" />
     <Compile Include="PythonSak.py">
       <SubType>Code</SubType>

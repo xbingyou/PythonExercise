@@ -28,3 +28,24 @@ for key, value in dict.items(myD):
 print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
 time.sleep(1)
 print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
+
+#for循环
+for x in range(9,0,-1):
+    print(x)
+
+#统计出其中英文字母、空格、数字和其它字符的个数
+s = input('请输入一个字符串:\n')
+letters = 0
+space = 0
+digit = 0
+others = 0
+for c in s:
+    if c.isalpha():
+        letters += 1
+    elif c.isspace():
+        space += 1
+    elif c.isdigit():
+        digit += 1
+    else:
+        others += 1
+print ('char = %d,space = %d,digit = %d,others = %d' % (letters,space,digit,others))
